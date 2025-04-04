@@ -15,45 +15,13 @@ Multilingual speech translation (ST) in the medical domain  enhances patient car
 * **Citation:**
 Please cite this paper: To be on Arxiv
 
-This repository contains scripts for end-to-end automatic speech recognition (ASR), machine translation (MT), and speech translation (ST) using cascaded and end-to-end sequence-to-sequence (seq2seq) models. The provided scripts cover model preparation, training, inference, and evaluation processes, based on the dataset *MultiMed-ST*.
-
-<p align="center">
-<img src="/VietMed-Sum/RTSS_diagram.png" alt="drawing" width="900"/>
-</p>
+This repository contains scripts for end-to-end automatic speech recognition (ASR), machine translation (MT), and speech translation (ST) using cascaded and end-to-end sequence-to-sequence (seq2seq) models. The provided code covers model preparation, training, inference, and evaluation processes, based on the dataset *MultiMed-ST*.
 
 ## Dataset and Pre-trained Models:
 
-Dataset: [HuggingFace dataset](), [Paperswithcodes dataset]()
+Dataset: [HuggingFace dataset](https://huggingface.co/datasets/leduckhai/MultiMed-ST), [Paperswithcodes dataset]()
 
-Pre-trained models: [HuggingFace model]()
-
-## For reproducing experiments:
-Data for train, dev, test is in the corresponding folder. Each folder contains different split of the dataset. The ASR data for testing is in ./test/test_asr.xlsx
-
-To train the model, run ./run.sh for automated running (assuming you have 8 GPUs).
-
-To do inference, run ./run_inference.sh
-
-## For infering using HuggingFace:
-
-Install the pre-requisite packages in Python. 
-```python
-pip install transformers
-```
-
-Use the code below to get started with the model.
-
-```python
-from transformers import pipeline
-# Initialize the pipeline with the ViT5 model, specify the device to use CUDA for GPU acceleration
-pipe = pipeline("text2text-generation", model="monishsystem/medisum_vit5", device='cuda')
-# Example text in Vietnamese describing a traditional medicine product
-example = "Loại thuốc này chứa các thành phần đông y đặc biệt tốt cho sức khoẻ, giúp tăng cường sinh lý và bổ thận tráng dương, đặc biệt tốt cho người cao tuổi và người có bệnh lý nền"
-# Generate a summary for the input text with a maximum length of 50 tokens
-summary = pipe(example, max_new_tokens=50)
-# Print the generated summary
-print(summary)
-```
+Fine-tuned models: [HuggingFace models](https://huggingface.co/leduckhai/MultiMed-ST)
 
 ## Contact:
 
@@ -66,9 +34,8 @@ Email: duckhai.le@mail.utoronto.ca
 GitHub: https://github.com/leduckhai
 ```
 
-**Khai-Nguyen Nguyen**
+**Bui Nguyen Kim Hai**
 ```
-College of William & Mary, USA
-Email: knguyen07@wm.edu
-GitHub: https://github.com/nkn002
+Eötvös Loránd University, Hungary
+Email: htlulem185@gmail.com
 ```
