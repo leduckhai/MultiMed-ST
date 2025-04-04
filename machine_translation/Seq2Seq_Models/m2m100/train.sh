@@ -1,0 +1,14 @@
+python3 train.py \
+    --model_name "facebook/m2m100_418M" \
+    --source_language "French" \
+    --target_language "Chinese" \
+    --source_lang_symbol 'fr' \
+    --target_lang_symbol 'zh' \
+    --train_strategy "epoch" \
+    --learning_rate 2e-5 \
+    --warmup 50 \
+    --train_batchsize 16 \
+    --eval_batchsize 16 \
+    --num_epochs 15 \
+    --dataset "wnkh/MultiMed" \
+    --max_input_length 256 \
