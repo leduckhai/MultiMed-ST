@@ -34,6 +34,12 @@ Email: duckhai.le@mail.utoronto.ca
 GitHub: https://github.com/leduckhai
 ```
 
+**Tuyen Tran**
+```
+Hanoi University of Science and Technology, Vietnam
+Email: tuyencbt@gmail.com
+```
+
 **Bui Nguyen Kim Hai**
 ```
 Eötvös Loránd University, Hungary
