@@ -13,13 +13,22 @@
 Multilingual speech translation (ST) in the medical domain  enhances patient care by enabling efficient communication across language barriers, alleviating specialized workforce shortages, and facilitating improved diagnosis and treatment, particularly during pandemics. In this work, we present the first systematic study on medical ST, to our best knowledge, by releasing *MultiMed-ST*, a large-scale ST dataset for the medical domain, spanning all translation directions in five languages: Vietnamese, English, German, French,  Traditional Chinese and Simplified Chinese, together with the models. With 290,000 samples, our dataset is the largest medical machine translation (MT) dataset and the largest many-to-many multilingual ST among all domains. Secondly, we present the most extensive analysis study in ST research to date, including: empirical baselines, bilingual-multilingual comparative study, end-to-end vs. cascaded comparative study, task-specific vs. multi-task sequence-to-sequence (seq2seq) comparative study, code-switch analysis, and quantitative-qualitative error analysis. All code, data, and models are available online:  [https://github.com/leduckhai/MultiMed-ST](https://github.com/leduckhai/MultiMed-ST).
 
 * **Citation:**
-Please cite this paper: To be on Arxiv
+Please cite this paper: [https://arxiv.org/abs/2504.03546](https://arxiv.org/abs/2504.03546)
+
+``` bibtex
+@article{le2025multimedst,
+  title={MultiMed-ST: Large-scale Many-to-many Multilingual Medical Speech Translation},
+  author={Le-Duc, Khai and Tran, Tuyen and Tat, Bach Phan and Bui, Nguyen Kim Hai and Dang, Quan and Tran, Hung-Phong and Nguyen, Thanh-Thuy and Nguyen, Ly and Phan, Tuan-Minh and Tran, Thi Thu Phuong and others},
+  journal={arXiv preprint arXiv:2504.03546},
+  year={2025}
+}
+```
 
 This repository contains scripts for end-to-end automatic speech recognition (ASR), machine translation (MT), and speech translation (ST) using cascaded and end-to-end sequence-to-sequence (seq2seq) models. The provided code covers model preparation, training, inference, and evaluation processes, based on the dataset *MultiMed-ST*.
 
-## Dataset and Pre-trained Models:
+## Dataset and Models:
 
-Dataset: [HuggingFace dataset](https://huggingface.co/datasets/leduckhai/MultiMed-ST), [Paperswithcodes dataset]()
+Dataset: [HuggingFace dataset](https://huggingface.co/datasets/leduckhai/MultiMed-ST)
 
 Fine-tuned models: [HuggingFace models](https://huggingface.co/leduckhai/MultiMed-ST)
 
