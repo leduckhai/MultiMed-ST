@@ -1,6 +1,6 @@
 # MultiMed-ST: Large-scale Many-to-many Multilingual Medical Speech Translation
 
-**<div align="center">Preprint</div>**
+**<div align="center">EMNLP 2025</div>**
 
 <div align="center">Khai Le-Duc*, Tuyen Tran*, Bach Phan Tat, Nguyen Kim Hai Bui, Quan Dang, Hung-Phong Tran, Thanh-Thuy Nguyen, Ly Nguyen, Tuan-Minh Phan, Thi Thu Phuong Tran, Chris Ngo, Nguyen X. Khanh**, Thanh Nguyen-Tang**</div>
 
