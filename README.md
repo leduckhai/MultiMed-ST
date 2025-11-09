@@ -1,4 +1,4 @@
-# 🩺 **MultiMed-ST: Large-scale Many-to-many Multilingual Medical Speech Translation**
+# <img src="https://github.com/leduckhai/MultiMed-ST/blob/main/MultiMedST_icon.png" alt="Logo" width="60" valign="bottom"> **MultiMed-ST: Large-scale Many-to-many Multilingual Medical Speech Translation**
 
 <p align="center">
   <a href="https://arxiv.org/abs/2504.03546">
@@ -47,7 +47,7 @@ With **290,000 samples**, *MultiMed-ST* represents:
 - 🧩 the **largest medical MT dataset** to date  
 - 🌐 the **largest many-to-many multilingual ST dataset** across all domains  
 
-We also conduct the **most comprehensive empirical analysis** in ST research so far, covering:
+We also conduct **the most comprehensive ST analysis in the field's history**, to our best knowledge, covering:
 - ✅ Empirical baselines  
 - 🔄 Bilingual vs. multilingual study  
 - 🧩 End-to-end vs. cascaded models  
@@ -55,8 +55,11 @@ We also conduct the **most comprehensive empirical analysis** in ST research so 
 - 🗣️ Code-switching analysis  
 - 📊 Quantitative & qualitative error analysis  
 
-All **code, data, and models** are publicly available:  
-👉 [**GitHub Repository**](https://github.com/leduckhai/MultiMed-ST)
+All **code, data, and models** are publicly available:  👉 [**GitHub Repository**](https://github.com/leduckhai/MultiMed-ST)
+
+<p align="center">
+  <img src="https://github.com/leduckhai/MultiMed-ST/blob/main/poster_MultiMed-ST_EMNLP2025.png" alt="MultiMed-ST Poster" width="85%">
+</p>
 
 ---
 
