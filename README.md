@@ -87,6 +87,20 @@ It includes:
 You can explore and download all fine-tuned models for **MultiMed-ST** directly from our Hugging Face repository:  
 
 <details>
+<summary><b>🔹 Whisper ASR Fine-tuned Models (Click to expand) </b></summary>
+
+| Language | Model Link |
+|-----------|------------|
+| Chinese | [whisper-small-chinese](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/asr/whisper-small-chinese) |
+| English | [whisper-small-english](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/asr/whisper-small-english) |
+| French | [whisper-small-french](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/asr/whisper-small-french) |
+| German | [whisper-small-german](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/asr/whisper-small-german) |
+| Multilingual | [whisper-small-multilingual](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/asr/whisper-small-multilingual) |
+| Vietnamese | [whisper-small-vietnamese](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/asr/whisper-small-vietnamese) |
+
+</details>
+
+<details>
 <summary><b>🔹 LLaMA-based MT Fine-tuned Models (Click to expand) </b></summary>
 
 | Source → Target | Model Link |
