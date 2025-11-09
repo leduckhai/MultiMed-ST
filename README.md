@@ -92,17 +92,13 @@ University of Toronto, Canada
 📧 [duckhai.le@mail.utoronto.ca](mailto:duckhai.le@mail.utoronto.ca)  
 🔗 [https://github.com/leduckhai](https://github.com/leduckhai)
 
-2. **Tuyen Tran**  
+2. **Tuyen Tran**: 📧 [tuyencbt@gmail.com](mailto:tuyencbt@gmail.com) 
 
 Hanoi University of Science and Technology, Vietnam
 
-📧 [tuyencbt@gmail.com](mailto:tuyencbt@gmail.com) 
-
-3. **Nguyen Kim Hai Bui**  
+3. **Nguyen Kim Hai Bui**: 📧 [htlulem185@gmail.com](mailto:htlulem185@gmail.com)  
 
 Eötvös Loránd University, Hungary 
-
-📧 [htlulem185@gmail.com](mailto:htlulem185@gmail.com)  
 
 ## 🧾 Citation
 
@@ -111,9 +107,10 @@ If you use our dataset or models, please cite:
 📄 [arXiv:2504.03546](https://arxiv.org/abs/2504.03546)
 
 ```bibtex
-@article{le2025multimedst,
+@inproceedings{le2025multimedst,
   title={MultiMed-ST: Large-scale Many-to-many Multilingual Medical Speech Translation},
-  author={Le-Duc, Khai and Tran, Tuyen and Tat, Bach Phan and Bui, Nguyen Kim Hai and Dang, Quan and Tran, Hung-Phong and Nguyen, Thanh-Thuy and Nguyen, Ly and Phan, Tuan-Minh and Tran, Thi Thu Phuong and others},
-  journal={arXiv preprint arXiv:2504.03546},
+  author={Le-Duc, Khai and Tran, Tuyen and Tat, Bach Phan and Bui, Nguyen Kim Hai and Anh, Quan Dang and Tran, Hung-Phong and Nguyen, Thanh Thuy and Nguyen, Ly and Phan, Tuan Minh and Tran, Thi Thu Phuong and others},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  pages={11838--11963},
   year={2025}
 }
