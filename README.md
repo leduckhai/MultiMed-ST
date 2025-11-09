@@ -84,6 +84,64 @@ It includes:
 - **Dataset:** [🤗 Hugging Face Dataset](https://huggingface.co/datasets/leduckhai/MultiMed-ST)  
 - **Fine-tuned Models:** [🤗 Hugging Face Models](https://huggingface.co/leduckhai/MultiMed-ST)
 
+You can explore and download all fine-tuned models for **MultiMed-ST** directly from our Hugging Face repository:  
+
+<details>
+<summary><b>🔹 LLaMA-based MT Fine-tuned Models (Click to expand) </b></summary>
+
+| Source → Target | Model Link |
+|------------------|------------|
+| Chinese → English | [llama_Chinese_English](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_Chinese_English) |
+| Chinese → French | [llama_Chinese_French](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_Chinese_French) |
+| Chinese → German | [llama_Chinese_German](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_Chinese_German) |
+| Chinese → Vietnamese | [llama_Chinese_Vietnamese](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_Chinese_Vietnamese) |
+| English → Chinese | [llama_English_Chinese](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_English_Chinese) |
+| English → French | [llama_English_French](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_English_French) |
+| English → German | [llama_English_German](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_English_German) |
+| English → Vietnamese | [llama_English_Vietnamese](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_English_Vietnamese) |
+| French → Chinese | [llama_French_Chinese](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_French_Chinese) |
+| French → English | [llama_French_English](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_French_English) |
+| French → German | [llama_French_German](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_French_German) |
+| French → Vietnamese | [llama_French_Vietnamese](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_French_Vietnamese) |
+| German → Chinese | [llama_German_Chinese](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_German_Chinese) |
+| German → English | [llama_German_English](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_German_English) |
+| German → French | [llama_German_French](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_German_French) |
+| German → Vietnamese | [llama_German_Vietnamese](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_German_Vietnamese) |
+| Vietnamese → Chinese | [llama_Vietnamese_Chinese](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_Vietnamese_Chinese) |
+| Vietnamese → English | [llama_Vietnamese_English](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_Vietnamese_English) |
+| Vietnamese → French | [llama_Vietnamese_French](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_Vietnamese_French) |
+| Vietnamese → German | [llama_Vietnamese_German](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/llama_Vietnamese_German) |
+
+</details>
+
+<details>
+<summary><b>🔹 m2m100_418M MT Fine-tuned Models (Click to expand) </b></summary>
+
+| Source → Target | Model Link |
+|------------------|------------|
+| de → en | [m2m100_418M-finetuned-de-to-en](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-de-to-en) |
+| de → fr | [m2m100_418M-finetuned-de-to-fr](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-de-to-fr) |
+| de → vi | [m2m100_418M-finetuned-de-to-vi](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-de-to-vi) |
+| de → zh | [m2m100_418M-finetuned-de-to-zh](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-de-to-zh) |
+| en → de | [m2m100_418M-finetuned-en-to-de](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-en-to-de) |
+| en → fr | [m2m100_418M-finetuned-en-to-fr](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-en-to-fr) |
+| en → vi | [m2m100_418M-finetuned-en-to-vi](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-en-to-vi) |
+| en → zh | [m2m100_418M-finetuned-en-to-zh](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-en-to-zh) |
+| fr → de | [m2m100_418M-finetuned-fr-to-de](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-fr-to-de) |
+| fr → en | [m2m100_418M-finetuned-fr-to-en](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-fr-to-en) |
+| fr → vi | [m2m100_418M-finetuned-fr-to-vi](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-fr-to-vi) |
+| fr → zh | [m2m100_418M-finetuned-fr-to-zh](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-fr-to-zh) |
+| vi → de | [m2m100_418M-finetuned-vi-to-de](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-vi-to-de) |
+| vi → en | [m2m100_418M-finetuned-vi-to-en](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-vi-to-en) |
+| vi → fr | [m2m100_418M-finetuned-vi-to-fr](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-vi-to-fr) |
+| vi → zh | [m2m100_418M-finetuned-vi-to-zh](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-vi-to-zh) |
+| zh → de | [m2m100_418M-finetuned-zh-to-de](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-zh-to-de) |
+| zh → en | [m2m100_418M-finetuned-zh-to-en](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-zh-to-en) |
+| zh → fr | [m2m100_418M-finetuned-zh-to-fr](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-zh-to-fr) |
+| zh → vi | [m2m100_418M-finetuned-zh-to-vi](https://huggingface.co/leduckhai/MultiMed-ST/tree/main/m2m100_418M-finetuned-zh-to-vi) |
+
+</details>
+
 ---
 
 ## 👨‍💻 Core Developers
