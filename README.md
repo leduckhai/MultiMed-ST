@@ -1,56 +1,119 @@
-# MultiMed-ST: Large-scale Many-to-many Multilingual Medical Speech Translation
+# 🩺 **MultiMed-ST: Large-scale Many-to-many Multilingual Medical Speech Translation**
 
-**<div align="center">EMNLP 2025</div>**
+<p align="center">
+  <a href="https://arxiv.org/abs/2504.03546">
+    <img src="https://img.shields.io/badge/Paper-arXiv%3A2504.03546-b31b1b?logo=arxiv&logoColor=white" alt="Paper">
+  </a>
+  <a href="https://huggingface.co/datasets/leduckhai/MultiMed-ST">
+    <img src="https://img.shields.io/badge/Dataset-HuggingFace-blue?logo=huggingface&logoColor=white" alt="Dataset">
+  </a>
+  <a href="https://huggingface.co/leduckhai/MultiMed-ST">
+    <img src="https://img.shields.io/badge/Models-HuggingFace-green?logo=huggingface&logoColor=white" alt="Models">
+  </a>
+  <a href="https://github.com/leduckhai/MultiMed-ST/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
+  </a>
+  <a href="https://github.com/leduckhai/MultiMed-ST/stargazers">
+    <img src="https://img.shields.io/github/stars/leduckhai/MultiMed-ST?style=social" alt="Stars">
+  </a>
+</p>
 
-<div align="center">Khai Le-Duc*, Tuyen Tran*, Bach Phan Tat, Nguyen Kim Hai Bui, Quan Dang, Hung-Phong Tran, Thanh-Thuy Nguyen, Ly Nguyen, Tuan-Minh Phan, Thi Thu Phuong Tran, Chris Ngo, Nguyen X. Khanh**, Thanh Nguyen-Tang**</div>
+<p align="center">
+  <strong>📘 EMNLP 2025</strong>
+</p>
 
-<div align="center">*Equal contribution</div>
-<div align="center">**Equal supervision</div>
+<p align="center">
+  <b>Khai Le-Duc*</b>, <b>Tuyen Tran*</b>, Bach Phan Tat, Nguyen Kim Hai Bui, Quan Dang, Hung-Phong Tran, Thanh-Thuy Nguyen, Ly Nguyen, Tuan-Minh Phan, Thi Thu Phuong Tran, Chris Ngo, Nguyen X. Khanh**, Thanh Nguyen-Tang**
+</p>
 
-> Please press ⭐ button and/or cite papers if you feel helpful.
+<p align="center">
+  <sub>*Equal contribution &nbsp;&nbsp;|&nbsp;&nbsp; **Equal supervision</sub>
+</p>
 
-* **Abstract:**
-Multilingual speech translation (ST) in the medical domain  enhances patient care by enabling efficient communication across language barriers, alleviating specialized workforce shortages, and facilitating improved diagnosis and treatment, particularly during pandemics. In this work, we present the first systematic study on medical ST, to our best knowledge, by releasing *MultiMed-ST*, a large-scale ST dataset for the medical domain, spanning all translation directions in five languages: Vietnamese, English, German, French,  Traditional Chinese and Simplified Chinese, together with the models. With 290,000 samples, our dataset is the largest medical machine translation (MT) dataset and the largest many-to-many multilingual ST among all domains. Secondly, we present the most extensive analysis study in ST research to date, including: empirical baselines, bilingual-multilingual comparative study, end-to-end vs. cascaded comparative study, task-specific vs. multi-task sequence-to-sequence (seq2seq) comparative study, code-switch analysis, and quantitative-qualitative error analysis. All code, data, and models are available online:  [https://github.com/leduckhai/MultiMed-ST](https://github.com/leduckhai/MultiMed-ST).
+---
 
-* **Citation:**
-Please cite this paper: [https://arxiv.org/abs/2504.03546](https://arxiv.org/abs/2504.03546)
+> ⭐ **If you find this work useful, please consider starring the repo and citing our paper!**
 
-``` bibtex
+---
+
+## 🧠 Abstract
+
+Multilingual speech translation (ST) in the **medical domain** enhances patient care by enabling effective communication across language barriers, alleviating workforce shortages, and improving diagnosis and treatment — especially in global health emergencies.
+
+In this work, we introduce **MultiMed-ST**, the *first large-scale multilingual medical speech translation dataset*, spanning **all translation directions** across **five languages**:  
+🇻🇳 Vietnamese, 🇬🇧 English, 🇩🇪 German, 🇫🇷 French, 🇨🇳 Traditional & Simplified Chinese.
+
+With **290,000 samples**, *MultiMed-ST* represents:
+- 🧩 the **largest medical MT dataset** to date  
+- 🌐 the **largest many-to-many multilingual ST dataset** across all domains  
+
+We also conduct the **most comprehensive empirical analysis** in ST research so far, covering:
+- ✅ Empirical baselines  
+- 🔄 Bilingual vs. multilingual study  
+- 🧩 End-to-end vs. cascaded models  
+- 🎯 Task-specific vs. multi-task seq2seq approaches  
+- 🗣️ Code-switching analysis  
+- 📊 Quantitative & qualitative error analysis  
+
+All **code, data, and models** are publicly available:  
+👉 [**GitHub Repository**](https://github.com/leduckhai/MultiMed-ST)
+
+---
+
+## 🧰 Repository Overview
+
+This repository provides scripts for:
+
+- 🎙️ **Automatic Speech Recognition (ASR)**
+- 🌍 **Machine Translation (MT)**
+- 🔄 **Speech Translation (ST)** — both **cascaded** and **end-to-end** seq2seq models  
+
+It includes:
+
+- ⚙️ Model preparation & fine-tuning  
+- 🚀 Training & inference scripts  
+- 📊 Evaluation & benchmarking utilities  
+
+---
+
+## 📦 Dataset & Models
+
+- **Dataset:** [🤗 Hugging Face Dataset](https://huggingface.co/datasets/leduckhai/MultiMed-ST)  
+- **Fine-tuned Models:** [🤗 Hugging Face Models](https://huggingface.co/leduckhai/MultiMed-ST)
+
+---
+
+## 👨‍💻 Core Developers
+
+1. **Khai Le-Duc**  
+
+University of Toronto, Canada 
+
+📧 [duckhai.le@mail.utoronto.ca](mailto:duckhai.le@mail.utoronto.ca)  
+🔗 [https://github.com/leduckhai](https://github.com/leduckhai)
+
+2. **Tuyen Tran**  
+
+Hanoi University of Science and Technology, Vietnam
+
+📧 [tuyencbt@gmail.com](mailto:tuyencbt@gmail.com) 
+
+3. **Nguyen Kim Hai Bui**  
+
+Eötvös Loránd University, Hungary 
+
+📧 [htlulem185@gmail.com](mailto:htlulem185@gmail.com)  
+
+## 🧾 Citation
+
+If you use our dataset or models, please cite:
+
+📄 [arXiv:2504.03546](https://arxiv.org/abs/2504.03546)
+
+```bibtex
 @article{le2025multimedst,
   title={MultiMed-ST: Large-scale Many-to-many Multilingual Medical Speech Translation},
   author={Le-Duc, Khai and Tran, Tuyen and Tat, Bach Phan and Bui, Nguyen Kim Hai and Dang, Quan and Tran, Hung-Phong and Nguyen, Thanh-Thuy and Nguyen, Ly and Phan, Tuan-Minh and Tran, Thi Thu Phuong and others},
   journal={arXiv preprint arXiv:2504.03546},
   year={2025}
 }
-```
-
-This repository contains scripts for end-to-end automatic speech recognition (ASR), machine translation (MT), and speech translation (ST) using cascaded and end-to-end sequence-to-sequence (seq2seq) models. The provided code covers model preparation, training, inference, and evaluation processes, based on the dataset *MultiMed-ST*.
-
-## Dataset and Models:
-
-Dataset: [HuggingFace dataset](https://huggingface.co/datasets/leduckhai/MultiMed-ST)
-
-Fine-tuned models: [HuggingFace models](https://huggingface.co/leduckhai/MultiMed-ST)
-
-## Contact:
-
-Core developers:
-
-**Khai Le-Duc**
-```
-University of Toronto, Canada
-Email: duckhai.le@mail.utoronto.ca
-GitHub: https://github.com/leduckhai
-```
-
-**Tuyen Tran**
-```
-Hanoi University of Science and Technology, Vietnam
-Email: tuyencbt@gmail.com
-```
-
-**Bui Nguyen Kim Hai**
-```
-Eötvös Loránd University, Hungary
-Email: htlulem185@gmail.com
-```
